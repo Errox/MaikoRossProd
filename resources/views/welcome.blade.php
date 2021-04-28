@@ -15,16 +15,16 @@
         <script src="https://kit.fontawesome.com/73201f4522.js" crossorigin="anonymous"></script>
 
         <!-- Jquery loading -->
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"  crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js" integrity="sha512-uto9mlQzrs59VwILcLiRYeLKPPbS/bT71da/OEBYEwcdNUk8jYIy+D176RYoop1Da+f9mvkYrmj5MCLZWEtQuA==" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
         <script>
             $(document).ready(function() {
- 
                 setTimeout(function(){
                     $('body').addClass('loaded');
                     $('#bgvid').trigger('play');
+                    $('.navbar').addClass("fixed-top", 500);
                 }, 1500);
-
             });
         </script>
     </head>
@@ -33,13 +33,14 @@
         <!-- Beginning of our preloader -->
         <div id="loader-wrapper">
             <div id="loader"></div>
-
             <div class="loader-section section-left"></div>
             <div class="loader-section section-right"></div>
         </div>
 
+
+        <!-- Beginning of our content. -->
         <div class="content">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+            <nav class="navbar navbar-expand-lg navbar-dark">
                 <!-- <div class="container"> -->
                     <a class="navbar-brand" href="#"><image src="{{URL('/images/MaikoRossProdLogoWit.png')}}"></a>
                 <!-- </div> -->
