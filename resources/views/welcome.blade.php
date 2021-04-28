@@ -24,12 +24,13 @@
                     $('body').addClass('loaded');
                     $('#bgvid').trigger('play');
                     $('.navbar').addClass("fixed-top", 500);
+                    $('body').removeClass("scrollLock", 500);
                 }, 1500);
             });
         </script>
     </head>
     <!-- <img src="{{ URL('/images/640x360.png') }}" alt="" title=""> -->
-    <body>
+    <body class="scrollLock">
         <!-- Beginning of our preloader -->
         <div id="loader-wrapper">
             <div id="loader"></div>
