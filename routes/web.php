@@ -17,6 +17,10 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('/test', function() {
+    return "yeet";
+})
+
 // Route::group(['middleware' => ['auth']], function(){
 //     Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard');
 // });
