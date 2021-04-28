@@ -17,11 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/test', function() {
-    return "yeet";
-});
-
-
 Route::get('/key', function(){
     artisan::call('key:generate');
 });
@@ -29,6 +24,53 @@ Route::get('/key', function(){
 Route::get('/key2', function(){
     artisan::call('cache:clear');
     artisan::call('config:clear');
+});
+
+Route::get('/key3', function(){
+    artisan::call('storage:link');
+});
+
+Route::get('images/{filename}', function ($filename)
+{
+    $path = storage_path() . '/app/public/images/' . $filename;
+
+    if(!File::exists($path)) abort(404);
+
+    $file = File::get($path);
+    $type = File::mimeType($path);
+
+    $response = Response::make($file, 200);
+    $response->header("Content-Type", $type);
+
+    return $response;
+});
+
+Route::get('css/{filename}', function ($filename)
+{
+    $path = storage_path() . '/app/public/css/' . $filename;
+
+    if(!File::exists($path)) abort(404);
+
+    $file = File::get($path);
+
+    $response = Response::make($file, 200);
+    $response->header("Content-Type", "text/css");
+
+    return $response;
+});
+
+Route::get('video/{filename}', function ($filename)
+{
+    $path = storage_path() . '/app/public/video/' . $filename;
+
+    if(!File::exists($path)) abort(404);
+
+    $file = File::get($path);
+
+    $response = Response::make($file, 200);
+    $response->header("Content-Type", $path);
+
+    return $response;
 });
 
 // Route::group(['middleware' => ['auth']], function(){
