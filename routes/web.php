@@ -19,7 +19,12 @@ Route::get('/', function () {
 
 Route::get('/test', function() {
     return "yeet";
-})
+});
+
+
+Route::get('/key', function(){
+    artisan::call('key:generate');
+});
 
 // Route::group(['middleware' => ['auth']], function(){
 //     Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard');
