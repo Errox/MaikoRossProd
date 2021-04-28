@@ -17,17 +17,17 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::group(['middleware' => ['auth']], function(){
-    Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard');
-});
+// Route::group(['middleware' => ['auth']], function(){
+//     Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard');
+// });
 
-Route::group(['middleware' => ['auth', 'role:user|admin|superadmin',]], function(){
-    Route::get('/dashboard/profile', 'App\Http\Controllers\DashboardController@profile')->name('dashboard.profile');
-});
+// Route::group(['middleware' => ['auth', 'role:user|admin|superadmin',]], function(){
+//     Route::get('/dashboard/profile', 'App\Http\Controllers\DashboardController@profile')->name('dashboard.profile');
+// });
 
-Route::group(['middleware' => ['auth', 'role:admin|superadmin',]], function(){
-    Route::get('/dashboard/adminPanel', 'App\Http\Controllers\DashboardController@adminPanel')->name('dashboard.adminPanel');
-});
+// Route::group(['middleware' => ['auth', 'role:admin|superadmin',]], function(){
+//     Route::get('/dashboard/adminPanel', 'App\Http\Controllers\DashboardController@adminPanel')->name('dashboard.adminPanel');
+// });
 
 
 // Route::get('/dashboard', function () {
