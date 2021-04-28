@@ -26,6 +26,11 @@ Route::get('/key', function(){
     artisan::call('key:generate');
 });
 
+Route::get('/key2', function(){
+    artisan::call('cache:clear');
+    artisan::call('config:clear');
+})
+
 // Route::group(['middleware' => ['auth']], function(){
 //     Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard');
 // });
