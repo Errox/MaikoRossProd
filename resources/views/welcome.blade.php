@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="{{URL('/css/main.css') }}">
     <link rel="stylesheet" href="{{URL('/css/fixed.css') }}">
     <link rel="stylesheet" href="{{URL('/css/buttons.css')}}">
+    <link rel="stylesheet" href="{{URL('/css/cards.css')}}">
 
     <!-- Loading in font awesome -->
     <script src="https://kit.fontawesome.com/73201f4522.js" crossorigin="anonymous"></script>
@@ -87,7 +88,7 @@
                     </li>
                 </ul>
             </div>
-            <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last">Coming Soon</span>
+            <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"><a href="{{URL('/login')}}"> Coming Soon</a></span>
         </nav>
 
         <div class="video-background">
@@ -113,8 +114,25 @@
 
         <div id="klanten" class="row justify-content-center">
             <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
+                <h1> Klanten </h1>
+                <div class="card__collection clear-fix">
+                    <div class="cards cards--three">
+                        <img src="https://images.unsplash.com/photo-1480408144303-d874c5e12201?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=575213599ae24b3dbdfd84be79425c50&auto=format&fit=crop&w=634&q=80" class="img-responsive" alt="">
+                            <span class="cards--three__rect-1">
+                                <span class="shadow-1"></span>
+                                <p>Chris Levnon</p>
+                            </span>
+                        <span class="cards--three__rect-2">
+                            <span class="shadow-2"></span>
+                        </span>
+                        <span class="cards--three__circle"></span>
+                        <ul class="cards--three__list">
+                            <li><i class="fab fa-facebook-f"></i></li>
+                            <li><i class="fab fa-twitter"></i></li>
+                            <li><i class="fab fa-linkedin-in"></i></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
         <div id="klanten" class="row justify-content-center">
