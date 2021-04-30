@@ -54,6 +54,8 @@
 
     <!-- Beginning of our content. -->
     <div class="content hidden">
+
+        <!-- Start of navbar -->
         <nav class="navbar navbar-expand-md navbar-dark">
             <div class="d-flex w-50 order-0">
                 <a class="navbar-brand" href="#">
@@ -88,99 +90,249 @@
                     </li>
                 </ul>
             </div>
-            <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"><a href="{{URL('/login')}}"> Coming Soon</a></span>
+            <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"><a
+                    href="{{URL('/login')}}"> Coming Soon</a></span>
         </nav>
+        <!-- End of navbar -->
 
-        <div class="video-background">
-            <div class="video-wrap">
-                <div id="video">
-                    <video id="bgvid" preload="metadata" loop muted>
-                        <source src="{{ URL('/video/Site Preview V2 (720p).mp4')}}" type="video/mp4">
-                    </video>
+        <!-- Start of front page -->
+        <div class="front-page">
+            <div class="video-background">
+                <div class="video-wrap">
+                    <div id="video">
+                        <video id="bgvid" preload="metadata" loop muted>
+                            <source src="{{ URL('/video/Site Preview V2 (720p).mp4')}}" type="video/mp4">
+                        </video>
+                    </div>
                 </div>
             </div>
-        </div>
-
-        <div class="caption text-center">
-            <div class="section__box">
-                <a href="#0" class="r-link ai-element ai-element_type1 ai-element1 homePageCaption">
-                    <span class="ai-element__label ">Over ons</span>
-                </a>
+            <!-- End of video background -->
+            <div class="caption text-center">
+                <div class="section__box">
+                    <a href="#0" class="r-link ai-element ai-element_type1 ai-element1 homePageCaption">
+                        <span class="ai-element__label ">Over ons</span>
+                    </a>
+                </div>
+            </div>
+            <div class="arrow bounce">
+                <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
             </div>
         </div>
-        <div class="arrow bounce">
-            <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
-        </div>
 
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
+        <!-- Start rest of the page -->
+        <div class="container bg-white">
 
+            <div class="klanten">
+                <h1 class="text-center">Klanten</h1>
+
+                <div class="container mt-100 mt-60">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                            <div class="mt-4 pt-2">
+                                <div class="team card position-relative d-block text-center">
+                                    <div class="image position-relative d-block overflow-hidden">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                            class="img-fluid rounded" alt="">
+                                        <div class="overlay rounded bg-dark"></div>
+                                    </div>
+                                    <div
+                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                        <h4 class="title mb-0">Joey van Bonkelen</h4>
+                                        <small class="text-muted">Streamer</small>
+                                    </div>
+                                    <ul class="list-unstyled team-social social-icon social mb-0">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                            <div class="mt-4 pt-2">
+                                <div class="team card position-relative d-block text-center">
+                                    <div class="image position-relative d-block overflow-hidden">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                            class="img-fluid rounded" alt="">
+                                        <div class="overlay rounded bg-dark"></div>
+                                    </div>
+                                    <div
+                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                        <h4 class="title mb-0">Joey van Bonkelen</h4>
+                                        <small class="text-muted">Streamer</small>
+                                    </div>
+                                    <ul class="list-unstyled team-social social-icon social mb-0">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                            <div class="mt-4 pt-2">
+                                <div class="team card position-relative d-block text-center">
+                                    <div class="image position-relative d-block overflow-hidden">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                            class="img-fluid rounded" alt="">
+                                        <div class="overlay rounded bg-dark"></div>
+                                    </div>
+                                    <div
+                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                        <h4 class="title mb-0">Joey van Bonkelen</h4>
+                                        <small class="text-muted">Streamer</small>
+                                    </div>
+                                    <ul class="list-unstyled team-social social-icon social mb-0">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                            <div class="mt-4 pt-2">
+                                <div class="team card position-relative d-block text-center">
+                                    <div class="image position-relative d-block overflow-hidden">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                            class="img-fluid rounded" alt="">
+                                        <div class="overlay rounded bg-dark"></div>
+                                    </div>
+                                    <div
+                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                        <h4 class="title mb-0">Joey van Bonkelen</h4>
+                                        <small class="text-muted">Streamer</small>
+                                    </div>
+                                    <ul class="list-unstyled team-social social-icon social mb-0">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                            <div class="mt-4 pt-2">
+                                <div class="team card position-relative d-block text-center">
+                                    <div class="image position-relative d-block overflow-hidden">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                                            class="img-fluid rounded" alt="">
+                                        <div class="overlay rounded bg-dark"></div>
+                                    </div>
+                                    <div
+                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                        <h4 class="title mb-0">Martin Sobhe</h4>
+                                        <small class="text-muted">Youtuber</small>
+                                    </div>
+                                    <ul class="list-unstyled team-social social-icon social mb-0">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                            <div class="mt-4 pt-2">
+                                <div class="team card position-relative d-block text-center">
+                                    <div class="image position-relative d-block overflow-hidden">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar6.png"
+                                            class="img-fluid rounded" alt="">
+                                        <div class="overlay rounded bg-dark"></div>
+                                    </div>
+                                    <div
+                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                        <h4 class="title mb-0">Bobby DE</h4>
+                                        <small class="text-muted">Developer</small>
+                                    </div>
+                                    <ul class="list-unstyled team-social social-icon social mb-0">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                            <div class="mt-4 pt-2">
+                                <div class="team card position-relative d-block text-center">
+                                    <div class="image position-relative d-block overflow-hidden">
+                                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                                            class="img-fluid rounded" alt="">
+                                        <div class="overlay rounded bg-dark"></div>
+                                    </div>
+                                    <div
+                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                        <h4 class="title mb-0">Cristino Murphy</h4>
+                                    </div>
+                                    <ul class="list-unstyled team-social social-icon social mb-0">
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
+                </div>
             </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
 
+            <hr>
+
+            <div class="test">
+                
+            <h1 class="text-center">Klanten</h1>
             </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
+            <div class="test">
+                
+            <h1 class="text-center">Klanten</h1>
             </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
+            <div class="test">
+                
+            <h1 class="text-center">Klanten</h1>
             </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
+            <div class="test">
+                
+            <h1 class="text-center">Klanten</h1>
             </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
+            <div class="test">
+                
+            <h1 class="text-center">Klanten</h1>
             </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
+            <div class="test">
+                
+            <h1 class="text-center">Klanten</h1>
             </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
+            <div class="test">
+                
+            <h1 class="text-center">Klanten</h1>
             </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
+            <div class="test">
+                
+            <h1 class="text-center">Klanten</h1>
             </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
+            <div class="test">
+                
+            <h1 class="text-center">Klanten</h1>
             </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
-            </div>
-        </div>
-        <div id="klanten" class="row justify-content-center">
-            <div class="col-md-8 text-center">
-                <h1> Test header plus </h1>
-
+            <div class="test">
+                
+            <h1 class="text-center">Klanten</h1>
             </div>
         </div>
     </div>

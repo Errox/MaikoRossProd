@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
+body{
+    background:gray;
+}
 
 #loader-wrapper {
     position: fixed;
@@ -296,6 +299,10 @@
     height: auto;
     width: 100px;
     margin: 15px;
+}
+
+.klanten{
+    margin-bottom: 10%;
 }
 
 
