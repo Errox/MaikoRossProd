@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:400,700');
 body{
-    background:gray;
+    background-image: url('/images/cool-background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contentBody{
+    border-radius:25px;
 }
 
 #loader-wrapper {
@@ -303,8 +310,12 @@ body{
 
 .klanten{
     margin-bottom: 10%;
+    padding-top:1%;
 }
 
+.overons p{
+    font-size: 15px;
+}
 
 /*============ BOOTSTRAP BREAK POINTS:
   

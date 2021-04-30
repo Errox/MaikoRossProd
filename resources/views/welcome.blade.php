@@ -120,7 +120,7 @@
         </div>
 
         <!-- Start rest of the page -->
-        <div class="container bg-white">
+        <div class="bg-white contentBody container">
 
             <div class="klanten">
                 <h1 class="text-center">Klanten</h1>
@@ -141,9 +141,12 @@
                                         <small class="text-muted">Streamer</small>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-twitter"></i></a></li>
                                     </ul>
                                     <!--end icon-->
                                 </div>
@@ -163,9 +166,12 @@
                                         <small class="text-muted">Streamer</small>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-twitter"></i></a></li>
                                     </ul>
                                     <!--end icon-->
                                 </div>
@@ -185,9 +191,12 @@
                                         <small class="text-muted">Streamer</small>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-twitter"></i></a></li>
                                     </ul>
                                     <!--end icon-->
                                 </div>
@@ -207,9 +216,12 @@
                                         <small class="text-muted">Streamer</small>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-twitter"></i></a></li>
                                     </ul>
                                     <!--end icon-->
                                 </div>
@@ -231,9 +243,12 @@
                                         <small class="text-muted">Youtuber</small>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-twitter"></i></a></li>
                                     </ul>
                                     <!--end icon-->
                                 </div>
@@ -255,9 +270,12 @@
                                         <small class="text-muted">Developer</small>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-twitter"></i></a></li>
                                     </ul>
                                     <!--end icon-->
                                 </div>
@@ -278,9 +296,12 @@
                                         <h4 class="title mb-0">Cristino Murphy</h4>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-facebook-square"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-facebook-square"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-instagram"></i></a></li>
+                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                    class="fab fa-twitter"></i></a></li>
                                     </ul>
                                     <!--end icon-->
                                 </div>
@@ -294,45 +315,34 @@
 
             <hr>
 
-            <div class="test">
-                
-            <h1 class="text-center">Klanten</h1>
-            </div>
-            <div class="test">
-                
-            <h1 class="text-center">Klanten</h1>
-            </div>
-            <div class="test">
-                
-            <h1 class="text-center">Klanten</h1>
-            </div>
-            <div class="test">
-                
-            <h1 class="text-center">Klanten</h1>
-            </div>
-            <div class="test">
-                
-            <h1 class="text-center">Klanten</h1>
-            </div>
-            <div class="test">
-                
-            <h1 class="text-center">Klanten</h1>
-            </div>
-            <div class="test">
-                
-            <h1 class="text-center">Klanten</h1>
-            </div>
-            <div class="test">
-                
-            <h1 class="text-center">Klanten</h1>
-            </div>
-            <div class="test">
-                
-            <h1 class="text-center">Klanten</h1>
-            </div>
-            <div class="test">
-                
-            <h1 class="text-center">Klanten</h1>
+            <div class="container overOns">
+                <h1 class="text-center align-middle">Over ons</h1>
+                <br>
+                <p class="text-center">
+                    MaikoRoss Productions is het bedrijf voor alle grote en upcoming YouTubers. Wij ontzorgen de
+                    YouTuber van de stress dat komt kijken bij het editten van de video's. MaikoRoss Productions
+                    produceert vanuit onbewerkte videobeelden de complete content. Dat wil zeggen een volledig geëditte
+                    video inclusief thumbnail.<br><br>
+
+                    Veel Youtubers editten zelf, hebben een freelance editor of een stagiair waarmee zij samenwerken.
+                    Youtubers lopen hierbij tegen meerdere problemen aan. Zelf editten kost veel tijd en geeft je minder
+                    tijd om creatief bezig te zijn met het bedenken van nieuwe content. Een freelance editor heeft niet
+                    24/7 de tijd, want die heeft nog ander werk ernaast. Een stagiair kost veel tijd om te begeleiden en
+                    op te leiden. Als de stagiair er eenmaal klaar voor is, dan is hun stageperiode voorbij en ben je
+                    hem kwijt.<br><br>
+
+                    Ben jij een Youtuber die geen tijd heeft om zich zorgen te maken over de edits? Heb jij behoefte aan
+                    24/7 contact en zekerheid dat jouw content van hoge kwaliteit is. <br>Neem dan nu contact met ons op.
+                    <br>
+                    <br>
+                    <div class="text-center">
+                        <div class="section__box">
+                            <a href="#0" class="r-link ai-element ai-element_type1 ai-element1 homePageCaption">
+                                <span class="ai-element__label ">Neem contact op!</span>
+                            </a>
+                        </div>
+                    </div>
+                </p>
             </div>
         </div>
     </div>
