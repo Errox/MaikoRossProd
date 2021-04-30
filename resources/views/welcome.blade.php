@@ -131,7 +131,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                        <img src="https://via.placeholder.com/245"
                                             class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
@@ -156,7 +156,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                        <img src="https://via.placeholder.com/245"
                                             class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
@@ -181,7 +181,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                        <img src="https://via.placeholder.com/245"
                                             class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
@@ -206,7 +206,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://bootdey.com/img/Content/avatar/avatar1.png"
+                                        <img src="https://via.placeholder.com/245"
                                             class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
@@ -233,7 +233,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://bootdey.com/img/Content/avatar/avatar3.png"
+                                        <img src="https://via.placeholder.com/245"
                                             class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
@@ -260,7 +260,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://bootdey.com/img/Content/avatar/avatar6.png"
+                                        <img src="https://via.placeholder.com/245"
                                             class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
@@ -287,7 +287,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://bootdey.com/img/Content/avatar/avatar2.png"
+                                        <img src="https://via.placeholder.com/245"
                                             class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
