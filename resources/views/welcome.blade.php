@@ -12,6 +12,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
     </script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
     <link rel="stylesheet" href="{{URL('/css/main.css') }}">
     <link rel="stylesheet" href="{{URL('/css/fixed.css') }}">
     <link rel="stylesheet" href="{{URL('/css/buttons.css')}}">
@@ -28,6 +31,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous">
     </script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+        integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+        crossorigin=""></script>
     <script>
         $(document).ready(function () {
             setTimeout(function () {
@@ -36,6 +42,7 @@
                 $('.navbar').addClass("fixed-top", 500);
                 $('body').removeClass("scrollLock", 500);
                 $('.hidden').removeClass();
+                window.dispatchEvent(new Event('resize'));
             }, 1500);
         });
 
@@ -131,8 +138,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245"
-                                            class="img-fluid rounded" alt="">
+                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
                                     <div
@@ -156,8 +162,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245"
-                                            class="img-fluid rounded" alt="">
+                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
                                     <div
@@ -181,8 +186,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245"
-                                            class="img-fluid rounded" alt="">
+                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
                                     <div
@@ -206,8 +210,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245"
-                                            class="img-fluid rounded" alt="">
+                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
                                     <div
@@ -233,8 +236,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245"
-                                            class="img-fluid rounded" alt="">
+                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
                                     <div
@@ -260,8 +262,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245"
-                                            class="img-fluid rounded" alt="">
+                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
                                     <div
@@ -287,8 +288,7 @@
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245"
-                                            class="img-fluid rounded" alt="">
+                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
                                     <div
@@ -332,7 +332,8 @@
                     hem kwijt.<br><br>
 
                     Ben jij een Youtuber die geen tijd heeft om zich zorgen te maken over de edits? Heb jij behoefte aan
-                    24/7 contact en zekerheid dat jouw content van hoge kwaliteit is. <br>Neem dan nu contact met ons op.
+                    24/7 contact en zekerheid dat jouw content van hoge kwaliteit is. <br>Neem dan nu contact met ons
+                    op.
                     <br>
                     <br>
                     <div class="text-center">
@@ -344,8 +345,220 @@
                     </div>
                 </p>
             </div>
+
+            <hr>
+
+            <div class="container onsTeams">
+                <h1 class="text-center align-middle">Ons Team</h1>
+                <br>
+                <!-- Maiko section-->
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://via.placeholder.com/350x350" class="img-responsive img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-md-8 TeamIndividualText">
+                        <h2 class="text-center align-middle"> Maiko Roskam </h2>
+                        <p class="text-center align-middle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Cras odio purus, pharetra sed efficitur ut, commodo ac tortor. Etiam nec imperdiet ligula.
+                            Duis in quam leo. Integer tempus pulvinar purus eu dapibus. Pellentesque pretium, mauris a
+                            facilisis tristique, enim ipsum condimentum magna, id mattis mi massa id ex. Nunc tristique
+                            sed lacus nec pellentesque. Donec ultrices quis tortor id lobortis. Interdum et malesuada
+                            fames ac ante ipsum primis in faucibus. </p>
+                        <p class="phoneNumberTeam text-center align-middle">
+                            Email: maiko@ross.nl<br>
+                            Phone: 0637777777
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <!-- Rolin section-->
+                <div class="row">
+                    <div class="col-md-8 TeamIndividualText">
+                        <h2 class="text-center align-middle"> Rolin Noteboom </h2>
+                        <p class="text-center align-middle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Cras odio purus, pharetra sed efficitur ut, commodo ac tortor. Etiam nec imperdiet ligula.
+                            Duis in quam leo. Integer tempus pulvinar purus eu dapibus. Pellentesque pretium, mauris a
+                            facilisis tristique, enim ipsum condimentum magna, id mattis mi massa id ex. Nunc tristique
+                            sed lacus nec pellentesque. Donec ultrices quis tortor id lobortis. Interdum et malesuada
+                            fames ac ante ipsum primis in faucibus. </p>
+                        <p class="phoneNumberTeam text-center align-middle">
+                            Email: maiko@ross.nl<br>
+                            Phone: 0637777777
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="https://via.placeholder.com/350x350" class="img-responsive img-fluid rounded" alt="">
+                    </div>
+                </div>
+                <br>
+                <!-- Tebbe section-->
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://via.placeholder.com/350x350" class="img-responsive img-fluid rounded" alt="">
+                    </div>
+                    <div class="col-md-8 TeamIndividualText">
+                        <h2 class="text-center align-middle"> Tebbe Jan van Loon </h2>
+                        <p class="text-center align-middle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            Cras odio purus, pharetra sed efficitur ut, commodo ac tortor. Etiam nec imperdiet ligula.
+                            Duis in quam leo. Integer tempus pulvinar purus eu dapibus. Pellentesque pretium, mauris a
+                            facilisis tristique, enim ipsum condimentum magna, id mattis mi massa id ex. Nunc tristique
+                            sed lacus nec pellentesque. Donec ultrices quis tortor id lobortis. Interdum et malesuada
+                            fames ac ante ipsum primis in faucibus. </p>
+                        <p class="phoneNumberTeam text-center align-middle">
+                            Email: maiko@ross.nl<br>
+                            Phone: 0637777777
+                        </p>
+                    </div>
+                </div>
+                <br>
+            </div>
+
+            <hr>
+
+            <div class="container Contact">
+                <h1 class="text-center align-middle">Contact</h1>
+                <br>
+                <div class="row">
+                    <!-- Contact image -->
+                    <div class="col-md-7 text-center align-middle">
+                    <div id="map"></div>
+                    <script>
+                        var mymap = L.map('map').setView([51.81467816805412, 4.666442580866372], 16);
+                        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                            maxZoom: 18,
+                            id: 'mapbox/streets-v11',
+                            tileSize: 512,
+                            zoomOffset: -1,
+                            accessToken: 'pk.eyJ1IjoiZXJyb3g1MDUiLCJhIjoiY2tvaXBlanJwMG1wbDJ2anplYW9heTFlbiJ9.7zvQNg_y2HX8kDP-9p_WoA'
+                        }).addTo(mymap);
+                        
+                        var marker = L.marker([51.81467816805412, 4.666442580866372]).addTo(mymap);
+                        marker.bindPopup("<h5> MaikoRoss Productions </h5> <p><a href='https://www.google.com/maps/place/Voorstraat+315,+3311+EP+Dordrecht/@51.8146843,4.6642383,17z/data=!3m1!4b1!4m5!3m4!1s0x47c42ecd3d49f75d:0x26175ac26f763d7b!8m2!3d51.814681!4d4.666427'>Voorstraat 315 <br> 3311 EP <br> Dordrecht </a></p> <p> +31 (0) 6 54 85 12 54 </p> <p> Info@maikoross.nl </p> ").openPopup();
+                    </script>    
+                    </div>
+                    
+
+                    <!-- Contact Form -->
+                    <div class="col-md-5 text-center align-middle ">
+                        <h3> Neem contact op! </h3>
+                        <form>
+                            <div class=" form-group">
+                                <input type="text" class="form-control" id="Name" aria-describedby="Name"
+                                    placeholder="Naam *" require>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control" id="Email" placeholder="Email *" require>
+                            </div>
+                            <div class=" form-group">
+                                <input type="text" class="form-control" id="phoneNumber" aria-describedby="emailHelp"
+                                    placeholder="Telefoon nummer">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" id="Subject" placeholder="Onderwerp *" require>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" rows="3" id="Message"
+                                    placeholder="Je bericht *"></textarea>
+                            </div>
+                            <div class="section__box">
+                                <a class="r-link ai-element ai-element_type1 ai-element1 navItems">
+                                    <span class="ai-element__label "><button type="submit"> Verstuur </button> </span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <br>
+            </div>
+
         </div>
     </div>
+    <footer id="footer" class="bg-secondary text-white d-flex-column text-center">
+        <!--Footer Links-->
+        <div class="container text-left">
+            <div class="row">
+                <!--First column-->
+                <div class="col-md-3 mx-auto shfooter">
+                    <h5 class="my-2 font-weight-bold d-none d-md-block">MaikoRoss Productions</h5>
+                    <div class="d-md-none title" data-target="#Product" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold">MaikoRoss Productions
+                            <div class="float-right navbar-toggler">
+                                <i class="fas fa-angle-down"></i>
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <ul class="collapse" id="Product">
+                        <li><a href="">Over ons</a></li>
+                        <li><a href="">Ons team</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Privacy statement</a></li>
+                    </ul>
+                </div>
+                <!--/.First column-->
+                <hr class="clearfix w-100 d-md-none mb-0">
+                <!--Second column-->
+                <div class="col-md-3 mx-auto shfooter">
+                </div>
+                <!--/.Second column-->
+                <hr class="clearfix w-100 d-md-none mb-0">
+                <!--Third column-->
+                <div class="col-md-3 mx-auto shfooter">
+                </div>
+                <!--/.Third column-->
+                <hr class="clearfix w-100 d-md-none mb-0">
+                <!--Fourth column-->
+                <div class="col-md-3 mx-auto shfooter">
+                    <h5 class="my-2 font-weight-bold d-none d-md-block">Volg ons</h5>
+                    <div class="d-md-none title" data-target="#Get-Help" data-toggle="collapse">
+                        <div class="mt-3 font-weight-bold">Volg ons
+                            <div class="float-right navbar-toggler">
+                                <i class="fas fa-angle-down"></i>
+                                <i class="fas fa-angle-up"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <hr>
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-inline-item">
+                            <a href="#!" class="sbtn btn-large mx-1" title="Facebook">
+                                <i class="fab fa-facebook-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!" class="sbtn btn-large mx-1" title="Linkedin">
+                                <i class="fab fa-linkedin fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!" class="sbtn btn-large mx-1" title="Twitter">
+                                <i class="fab fa-twitter-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!" class="sbtn btn-large mx-1" title="Youtube">
+                                <i class="fab fa-youtube-square fa-2x"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+            </div>
+        </div>
+        <!--/.Footer Links-->
+        <hr class="mb-0">
+        <!--Copyright-->
+        <div class="py-3 text-center">
+            <p> &copy; <?php 
+                $copyYear = 2020; 
+                $curYear = date('Y'); 
+                echo $copyYear . (($copyYear != $curYear) ? '-' . $curYear : '');
+                ?> MaikoRoss Productions | Alle rechten voorbehouden | <a href="/privacy"> Privacy Statement </a> </p>
+        </div>
+        <!--/.Copyright-->
+    </footer>
     <script>
         $(window).scroll(function () {
             $(".arrow").css("opacity", 1 - $(window).scrollTop() / 150);
