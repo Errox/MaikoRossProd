@@ -163,6 +163,7 @@
         <!-- Start rest of the page -->
         <div class="bg-white contentBody container">
 
+            <!-- Section Klanten -->
             <div id="klanten" class="klanten">
                 <h1 class="text-center">Klanten</h1>
 
@@ -349,6 +350,7 @@
 
             <hr>
 
+            <!-- Section Overons -->
             <div id="overOns" class="container overOns">
                 <h1 class="text-center align-middle">Over ons</h1>
                 <br>
@@ -382,6 +384,7 @@
 
             <hr>
 
+            <!-- Section Onsteam -->
             <div id="onsTeam" class="container onsTeams">
                 <h1 class="text-center align-middle">Ons Team</h1>
                 <br>
@@ -449,6 +452,7 @@
 
             <hr>
 
+            <!-- Section contact -->
             <div id="contact" class="container Contact">
                 <h1 class="text-center align-middle">Contact</h1>
                 <br>
@@ -457,14 +461,14 @@
                     <div class="col-md-7 text-center align-middle">
                     <div id="map"></div>
                     <script>
-                        var mymap = L.map('map').setView([51.81467816805412, 4.666442580866372], 16);
+                        var mymap = L.map('map', { scrollWheelZoom: false }).setView([51.81467816805412, 4.666442580866372], 16);
                         L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
                             attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
                             maxZoom: 18,
                             id: 'mapbox/streets-v11',
                             tileSize: 512,
                             zoomOffset: -1,
-                            accessToken: 'pk.eyJ1IjoiZXJyb3g1MDUiLCJhIjoiY2tvaXBlanJwMG1wbDJ2anplYW9heTFlbiJ9.7zvQNg_y2HX8kDP-9p_WoA'
+                            accessToken: 'pk.eyJ1IjoiZXJyb3g1MDUiLCJhIjoiY2tvaXBlanJwMG1wbDJ2anplYW9heTFlbiJ9.7zvQNg_y2HX8kDP-9p_WoA',
                         }).addTo(mymap);
                         
                         var marker = L.marker([51.81467816805412, 4.666442580866372]).addTo(mymap);
@@ -476,7 +480,8 @@
                     <!-- Contact Form -->
                     <div class="col-md-5 text-center align-middle ">
                         <h3> Neem contact op! </h3>
-                        <form>
+                        <form method="POST" action="/contactForm">
+                            @csrf
                             <div class=" form-group">
                                 <input type="text" class="form-control" id="Name" aria-describedby="Name"
                                     placeholder="Naam *" require>
@@ -509,6 +514,7 @@
 
         </div>
     </div>
+    <!-- Footer -->
     <footer id="footer" class="bg-secondary text-white d-flex-column text-center">
         <!--Footer Links-->
         <div class="container text-left">
@@ -576,6 +582,7 @@
         </div>
         <!--/.Copyright-->
     </footer>
+
     <script>
         $(window).scroll(function () {
             $(".arrow").css("opacity", 1 - $(window).scrollTop() / 150);
