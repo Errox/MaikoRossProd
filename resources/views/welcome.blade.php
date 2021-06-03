@@ -142,7 +142,7 @@
                 <div class="video-wrap">
                     <div id="video">
                         <video id="bgvid" preload="metadata" loop muted>
-                            <source src="{{ URL('/video/Site Preview V2 (720p).mp4')}}" type="video/mp4">
+                            <source src="{{ URL('/video/MIJN NIEUW GEPIMPTE AUTO.mp4')}}" type="video/mp4">
                         </video>
                     </div>
                 </div>
