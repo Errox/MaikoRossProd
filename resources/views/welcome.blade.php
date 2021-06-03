@@ -44,8 +44,42 @@
                 $('.hidden').removeClass();
                 window.dispatchEvent(new Event('resize'));
             }, 1500);
-        });
 
+
+            $('#onsTeamButton').click(function () {
+                $('html, body').animate({
+                    scrollTop: $("#onsTeam").offset().top - 100
+                }, 1500);
+            });
+
+            $('#contactButton').click(function () {
+                console.log("yeet")
+                $('html, body').animate({
+                    scrollTop: $("#contact").offset().top - 100
+                }, 1500);
+            });
+
+            $('#homeButton').click(function () {
+                console.log("yeet")
+                $('html, body').animate({
+                    scrollTop: $("#homePage").offset().top - 100
+                }, 1500);
+            });
+
+            $('#overOnsButton').click(function () {
+                console.log("yeet")
+                $('html, body').animate({
+                    scrollTop: $("#overOns").offset().top - 100
+                }, 1500);
+            });
+
+            $('#klantenButton').click(function () {
+                console.log("yeet")
+                $('html, body').animate({
+                    scrollTop: $("#klanten").offset().top - 100
+                }, 1500);
+            });
+        });
     </script>
 </head>
 <!-- <img src="{{ URL('/images/640x360.png') }}" alt="" title=""> -->
@@ -60,7 +94,7 @@
 
 
     <!-- Beginning of our content. -->
-    <div class="content hidden">
+    <div id="homePage" class="content hidden">
 
         <!-- Start of navbar -->
         <nav class="navbar navbar-expand-md navbar-dark">
@@ -76,21 +110,21 @@
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <div class="section__box">
-                            <a href="#0" class="r-link ai-element ai-element_type1 ai-element1 navItems">
+                            <a id="homeButton" id="test" class="r-link ai-element ai-element_type1 ai-element1 navItems">
                                 <span class="ai-element__label ">Home</span>
                             </a>
                         </div>
                     </li>
                     <li class="nav-item">
                         <div class="section__box">
-                            <a href="#0" class="r-link ai-element ai-element_type1 ai-element1 navItems">
+                            <a id="onsTeamButton" class="r-link ai-element ai-element_type1 ai-element1 navItems">
                                 <span class="ai-element__label ">Ons Team</span>
                             </a>
                         </div>
                     </li>
                     <li class="nav-item">
                         <div class="section__box">
-                            <a href="#0" class="r-link ai-element ai-element_type1 ai-element1 navItems">
+                            <a id="contactButton"  class="r-link ai-element ai-element_type1 ai-element1 navItems">
                                 <span class="ai-element__label ">Contact</span>
                             </a>
                         </div>
@@ -103,7 +137,7 @@
         <!-- End of navbar -->
 
         <!-- Start of front page -->
-        <div class="front-page">
+        <div id="home" class="front-page">
             <div class="video-background">
                 <div class="video-wrap">
                     <div id="video">
@@ -116,12 +150,12 @@
             <!-- End of video background -->
             <div class="caption text-center">
                 <div class="section__box">
-                    <a href="#0" class="r-link ai-element ai-element_type1 ai-element1 homePageCaption">
+                    <a id="overOnsButton" class="r-link ai-element ai-element_type1 ai-element1 homePageCaption">
                         <span class="ai-element__label ">Over ons</span>
                     </a>
                 </div>
             </div>
-            <div class="arrow bounce">
+            <div id="klantenButton" class="arrow bounce">
                 <i class="fa fa-angle-down fa-5x" aria-hidden="true"></i>
             </div>
         </div>
@@ -129,7 +163,7 @@
         <!-- Start rest of the page -->
         <div class="bg-white contentBody container">
 
-            <div class="klanten">
+            <div id="klanten" class="klanten">
                 <h1 class="text-center">Klanten</h1>
 
                 <div class="container mt-100 mt-60">
@@ -315,7 +349,7 @@
 
             <hr>
 
-            <div class="container overOns">
+            <div id="overOns" class="container overOns">
                 <h1 class="text-center align-middle">Over ons</h1>
                 <br>
                 <p class="text-center">
@@ -338,7 +372,7 @@
                     <br>
                     <div class="text-center">
                         <div class="section__box">
-                            <a href="#0" class="r-link ai-element ai-element_type1 ai-element1 homePageCaption">
+                            <a id="contactButton" class="r-link ai-element ai-element_type1 ai-element1 homePageCaption">
                                 <span class="ai-element__label ">Neem contact op!</span>
                             </a>
                         </div>
@@ -348,7 +382,7 @@
 
             <hr>
 
-            <div class="container onsTeams">
+            <div id="onsTeam" class="container onsTeams">
                 <h1 class="text-center align-middle">Ons Team</h1>
                 <br>
                 <!-- Maiko section-->
@@ -415,7 +449,7 @@
 
             <hr>
 
-            <div class="container Contact">
+            <div id="contact" class="container Contact">
                 <h1 class="text-center align-middle">Contact</h1>
                 <br>
                 <div class="row">
@@ -481,65 +515,48 @@
             <div class="row">
                 <!--First column-->
                 <div class="col-md-3 mx-auto shfooter">
-                    <h5 class="my-2 font-weight-bold d-none d-md-block">MaikoRoss Productions</h5>
-                    <div class="d-md-none title" data-target="#Product" data-toggle="collapse">
-                        <div class="mt-3 font-weight-bold">MaikoRoss Productions
-                            <div class="float-right navbar-toggler">
-                                <i class="fas fa-angle-down"></i>
-                                <i class="fas fa-angle-up"></i>
-                            </div>
-                        </div>
-                    </div>
+                    <h5 class="my-2 font-weight-bold ">MaikoRoss Productions</h5>
+   
                     <ul class="collapse" id="Product">
-                        <li><a href="">Over ons</a></li>
-                        <li><a href="">Ons team</a></li>
-                        <li><a href="">Contact</a></li>
-                        <li><a href="">Privacy statement</a></li>
+                        <li id="homeButton"><a id="homeButton" >Klanten</a></li>
+                        <li id="overOnsButton"><a id="overOnsButton" >Over ons</a></li>
+                        <li id="onsTeamButton"><a id="onsTeamButton" >Ons team</a></li>
+                        <li id="contactButton"><a id="contactButton" >Contact</a></li>
+                        <li><a href="/privacy">Privacy statement</a></li>
                     </ul>
                 </div>
-                <!--/.First column-->
-                <hr class="clearfix w-100 d-md-none mb-0">
-                <!--Second column-->
                 <div class="col-md-3 mx-auto shfooter">
                 </div>
-                <!--/.Second column-->
-                <hr class="clearfix w-100 d-md-none mb-0">
-                <!--Third column-->
                 <div class="col-md-3 mx-auto shfooter">
                 </div>
-                <!--/.Third column-->
-                <hr class="clearfix w-100 d-md-none mb-0">
                 <!--Fourth column-->
                 <div class="col-md-3 mx-auto shfooter">
-                    <h5 class="my-2 font-weight-bold d-none d-md-block">Volg ons</h5>
-                    <div class="d-md-none title" data-target="#Get-Help" data-toggle="collapse">
-                        <div class="mt-3 font-weight-bold">Volg ons
-                            <div class="float-right navbar-toggler">
-                                <i class="fas fa-angle-down"></i>
-                                <i class="fas fa-angle-up"></i>
-                            </div>
-                        </div>
-                    </div>
+                    <h5 class="my-2 font-weight-bold">Volg ons</h5>
                     <hr>
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item">
-                            <a href="#!" class="sbtn btn-large mx-1" title="Facebook">
+                            <a href="#!" target="_blank" class="sbtn btn-large mx-1" title="Facebook">
                                 <i class="fab fa-facebook-square fa-2x"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!" class="sbtn btn-large mx-1" title="Linkedin">
+                            <a href="#!" target="_blank" class="sbtn btn-large mx-1" title="Linkedin">
                                 <i class="fab fa-linkedin fa-2x"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!" class="sbtn btn-large mx-1" title="Twitter">
+                            <a href="#!" target="_blank" class="sbtn btn-large mx-1" title="Twitter">
                                 <i class="fab fa-twitter-square fa-2x"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!" class="sbtn btn-large mx-1" title="Youtube">
+                            <a href="#!" target="_blank" class="sbtn btn-large mx-1" title="Youtube">
                                 <i class="fab fa-youtube-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#!" target="_blank" class="sbtn btn-large mx-1" title="Instagram">
+                                <i class="fab fa-instagram-square fa-2x"></i>
                             </a>
                         </li>
                     </ul>

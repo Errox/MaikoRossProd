@@ -438,6 +438,10 @@ input[type="reset"] {
 #map{
     height:425px;
 }
+
+.aWithoutLink{
+    color: #00dbff;
+}
 /*============ BOOTSTRAP BREAK POINTS:
   
   Extra small (xs) devices (portrait phones, less than 576px)

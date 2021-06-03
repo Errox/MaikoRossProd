@@ -17,6 +17,27 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::post('/contactForm', function(){
+    // Possible that a telegram message can be send to a certain group.
+    // This can create a better / faster view who and what has said something
+
+    // captcha is a must for this.
+
+
+
+    // Get all the form information
+
+
+    // Make up a mail with bootstrap 
+
+
+    // place the variables within the bootstrap template.
+
+    // Send mail 
+
+    // Send telegram message or something. 
+});
+
 Route::get('/key', function(){
     artisan::call('key:generate');
 });
@@ -30,8 +51,11 @@ Route::get('/key3', function(){
     artisan::call('storage:link');
 });
 
-Route::get('images/{filename}', function ($filename)
-{
+Route::get('/migrate', function(){
+    artisan::call('migrate');
+});
+
+Route::get('images/{filename}', function ($filename){
     $path = storage_path() . '/app/public/images/' . $filename;
 
     if(!File::exists($path)) abort(404);
@@ -45,8 +69,7 @@ Route::get('images/{filename}', function ($filename)
     return $response;
 });
 
-Route::get('css/{filename}', function ($filename)
-{
+Route::get('css/{filename}', function ($filename){
     $path = storage_path() . '/app/public/css/' . $filename;
 
     if(!File::exists($path)) abort(404);
@@ -59,8 +82,7 @@ Route::get('css/{filename}', function ($filename)
     return $response;
 });
 
-Route::get('video/{filename}', function ($filename)
-{
+Route::get('video/{filename}', function ($filename){
     $path = storage_path() . '/app/public/video/' . $filename;
 
     if(!File::exists($path)) abort(404);
@@ -72,6 +94,7 @@ Route::get('video/{filename}', function ($filename)
 
     return $response;
 });
+
 
 // Route::group(['middleware' => ['auth']], function(){
 //     Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard');
