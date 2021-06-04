@@ -483,21 +483,21 @@
                         <form method="POST" action="/contactForm">
                             @csrf
                             <div class=" form-group">
-                                <input type="text" class="form-control" id="Name" aria-describedby="Name"
+                                <input type="text" class="form-control" id="name" name="name" aria-describedby="Name"
                                     placeholder="Naam *" require>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="Email" placeholder="Email *" require>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email *" require>
                             </div>
                             <div class=" form-group">
-                                <input type="text" class="form-control" id="phoneNumber" aria-describedby="emailHelp"
+                                <input type="text" class="form-control" id="phoneNumber" name="phoneNumber" aria-describedby="emailHelp"
                                     placeholder="Telefoon nummer">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="Subject" placeholder="Onderwerp *" require>
+                                <input type="text" class="form-control" id="subject" name="subject" placeholder="Onderwerp *" require>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" rows="3" id="Message"
+                                <textarea class="form-control" rows="3" id="message" name="message"
                                     placeholder="Je bericht *"></textarea>
                             </div>
                             <div class="section__box">

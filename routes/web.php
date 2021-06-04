@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\ContactForm;
+use App\Http\Controllers\ContactFormController;
 
 /*
 |--------------------------------------------------------------------------
@@ -18,7 +18,11 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::post('/contactForm', [ContactForm::class, 'store']);
+// Route::post('/contactForm', [ContactFormController::class, 'store']);
+
+Route::resource('/contactForm', ContactFormController::class)->only([
+    'store'
+]);
 
 Route::get('/key', function(){
     artisan::call('key:generate');
