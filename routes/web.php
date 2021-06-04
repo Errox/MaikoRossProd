@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ContactForm;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,6 +18,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::post('/contactForm', [ContactForm::class, 'store']);
+
 Route::get('/key', function(){
     artisan::call('key:generate');
 });
@@ -30,8 +33,11 @@ Route::get('/key3', function(){
     artisan::call('storage:link');
 });
 
-Route::get('images/{filename}', function ($filename)
-{
+Route::get('/migrate', function(){
+    artisan::call('migrate');
+});
+
+Route::get('images/{filename}', function ($filename){
     $path = storage_path() . '/app/public/images/' . $filename;
 
     if(!File::exists($path)) abort(404);
@@ -45,8 +51,7 @@ Route::get('images/{filename}', function ($filename)
     return $response;
 });
 
-Route::get('css/{filename}', function ($filename)
-{
+Route::get('css/{filename}', function ($filename){
     $path = storage_path() . '/app/public/css/' . $filename;
 
     if(!File::exists($path)) abort(404);
@@ -59,8 +64,7 @@ Route::get('css/{filename}', function ($filename)
     return $response;
 });
 
-Route::get('video/{filename}', function ($filename)
-{
+Route::get('video/{filename}', function ($filename){
     $path = storage_path() . '/app/public/video/' . $filename;
 
     if(!File::exists($path)) abort(404);
@@ -72,6 +76,7 @@ Route::get('video/{filename}', function ($filename)
 
     return $response;
 });
+
 
 // Route::group(['middleware' => ['auth']], function(){
 //     Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard');
