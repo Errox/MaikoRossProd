@@ -14,7 +14,7 @@
     </script>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
         integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-        crossorigin=""/>
+        crossorigin="" />
     <link rel="stylesheet" href="{{URL('/css/main.css') }}">
     <link rel="stylesheet" href="{{URL('/css/fixed.css') }}">
     <link rel="stylesheet" href="{{URL('/css/buttons.css')}}">
@@ -34,6 +34,7 @@
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
         integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
         crossorigin=""></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script>
     <script>
         $(document).ready(function () {
             setTimeout(function () {
@@ -80,6 +81,7 @@
                 }, 1500);
             });
         });
+
     </script>
 </head>
 <!-- <img src="{{ URL('/images/640x360.png') }}" alt="" title=""> -->
@@ -110,7 +112,8 @@
                 <ul class="navbar-nav">
                     <li class="nav-item active">
                         <div class="section__box">
-                            <a id="homeButton" id="test" class="r-link ai-element ai-element_type1 ai-element1 navItems">
+                            <a id="homeButton" id="test"
+                                class="r-link ai-element ai-element_type1 ai-element1 navItems">
                                 <span class="ai-element__label ">Home</span>
                             </a>
                         </div>
@@ -124,7 +127,7 @@
                     </li>
                     <li class="nav-item">
                         <div class="section__box">
-                            <a id="contactButton"  class="r-link ai-element ai-element_type1 ai-element1 navItems">
+                            <a id="contactButton" class="r-link ai-element ai-element_type1 ai-element1 navItems">
                                 <span class="ai-element__label ">Contact</span>
                             </a>
                         </div>
@@ -374,7 +377,8 @@
                     <br>
                     <div class="text-center">
                         <div class="section__box">
-                            <a id="contactButton" class="r-link ai-element ai-element_type1 ai-element1 homePageCaption">
+                            <a id="contactButton"
+                                class="r-link ai-element ai-element_type1 ai-element1 homePageCaption">
                                 <span class="ai-element__label ">Neem contact op!</span>
                             </a>
                         </div>
@@ -459,50 +463,82 @@
                 <div class="row">
                     <!-- Contact image -->
                     <div class="col-md-7 text-center align-middle">
-                    <div id="map"></div>
-                    <script>
-                        var mymap = L.map('map', { scrollWheelZoom: false }).setView([51.81467816805412, 4.666442580866372], 16);
-                        L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
-                            attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-                            maxZoom: 18,
-                            id: 'mapbox/streets-v11',
-                            tileSize: 512,
-                            zoomOffset: -1,
-                            accessToken: 'pk.eyJ1IjoiZXJyb3g1MDUiLCJhIjoiY2tvaXBlanJwMG1wbDJ2anplYW9heTFlbiJ9.7zvQNg_y2HX8kDP-9p_WoA',
-                        }).addTo(mymap);
-                        
-                        var marker = L.marker([51.81467816805412, 4.666442580866372]).addTo(mymap);
-                        marker.bindPopup("<h5> MaikoRoss Productions </h5> <p><a href='https://www.google.com/maps/place/Voorstraat+315,+3311+EP+Dordrecht/@51.8146843,4.6642383,17z/data=!3m1!4b1!4m5!3m4!1s0x47c42ecd3d49f75d:0x26175ac26f763d7b!8m2!3d51.814681!4d4.666427'>Voorstraat 315 <br> 3311 EP <br> Dordrecht </a></p> <p> +31 (0) 6 54 85 12 54 </p> <p> Info@maikoross.nl </p> ").openPopup();
-                    </script>    
+                        <div id="map"></div>
+                        <script>
+                            var mymap = L.map('map', {
+                                scrollWheelZoom: false
+                            }).setView([51.81467816805412, 4.666442580866372], 16);
+                            L.tileLayer(
+                                'https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+                                    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+                                    maxZoom: 18,
+                                    id: 'mapbox/streets-v11',
+                                    tileSize: 512,
+                                    zoomOffset: -1,
+                                    accessToken: 'pk.eyJ1IjoiZXJyb3g1MDUiLCJhIjoiY2tvaXBlanJwMG1wbDJ2anplYW9heTFlbiJ9.7zvQNg_y2HX8kDP-9p_WoA',
+                                }).addTo(mymap);
+
+                            var marker = L.marker([51.81467816805412, 4.666442580866372]).addTo(mymap);
+                            marker.bindPopup(
+                                "<h5> MaikoRoss Productions </h5> <p><a href='https://www.google.com/maps/place/Voorstraat+315,+3311+EP+Dordrecht/@51.8146843,4.6642383,17z/data=!3m1!4b1!4m5!3m4!1s0x47c42ecd3d49f75d:0x26175ac26f763d7b!8m2!3d51.814681!4d4.666427'>Voorstraat 315 <br> 3311 EP <br> Dordrecht </a></p> <p> +31 (0) 6 54 85 12 54 </p> <p> Info@maikoross.nl </p> "
+                                ).openPopup();
+
+                        </script>
                     </div>
-                    
+
 
                     <!-- Contact Form -->
                     <div class="col-md-5 text-center align-middle ">
                         <h3> Neem contact op! </h3>
-                        <form method="POST" action="/contactForm">
+                        <div style="display:none" class="SuccesMessage">
+                            <div class="alert alert-success" role="alert">
+                                <h4 class="alert-heading">Succes!</h4>
+                                <p>Je bericht is succesvol ontvangen! We zullen zo spoedig mogelijk contact met je opnemen!</p>
+                              </div>
+                        </div>
+                        <div style="display:none" class="ErrorMessage">
+                            <div class="alert alert-danger" role="alert">
+                                <h4 class="alert-heading">Oops</h4>
+                                <p>Er is iets fout gegaan! Probeer opnieuw. </p>
+                                <p class="errorMessage"> </p>
+                              </div>
+                        </div>
+                        <form name="contactUsForm" id="contactUsForm" method="POST" action="javascript:void">
                             @csrf
                             <div class=" form-group">
-                                <input type="text" class="form-control" id="Name" aria-describedby="Name"
+                                <input type="text" class="form-control" id="name" name="name" aria-describedby="Name"
                                     placeholder="Naam *" require>
                             </div>
                             <div class="form-group">
-                                <input type="email" class="form-control" id="Email" placeholder="Email *" require>
+                                <input type="email" class="form-control" id="email" name="email" placeholder="Email *"
+                                    require>
                             </div>
                             <div class=" form-group">
-                                <input type="text" class="form-control" id="phoneNumber" aria-describedby="emailHelp"
-                                    placeholder="Telefoon nummer">
+                                <input type="text" class="form-control" id="phoneNumber" name="phoneNumber"
+                                    aria-describedby="emailHelp" placeholder="Telefoon nummer">
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" id="Subject" placeholder="Onderwerp *" require>
+                                <input type="text" class="form-control" id="subject" name="subject"
+                                    placeholder="Onderwerp *" require>
                             </div>
                             <div class="form-group">
-                                <textarea class="form-control" rows="3" id="Message"
+                                <textarea class="form-control" rows="3" id="message" name="message"
                                     placeholder="Je bericht *"></textarea>
+                            </div>
+                            <div class="form-group mt-4 mb-4">
+                                <div class="captcha">
+                                    <span>{!! captcha_img() !!}</span>
+                                    <button type="button" class="btn btn-danger" class="reload" id="reload">
+                                        &#x21bb;
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="form-group mb-4">
+                                <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha">
                             </div>
                             <div class="section__box">
                                 <a class="r-link ai-element ai-element_type1 ai-element1 navItems">
-                                    <span class="ai-element__label "><button type="submit"> Verstuur </button> </span>
+                                    <span class="ai-element__label "><button type="submit" id="submit" > Verstuur </button> </span>
                                 </a>
                             </div>
                         </form>
@@ -522,12 +558,12 @@
                 <!--First column-->
                 <div class="col-md-3 mx-auto shfooter">
                     <h5 class="my-2 font-weight-bold ">MaikoRoss Productions</h5>
-   
+
                     <ul class="collapse" id="Product">
-                        <li id="homeButton"><a id="homeButton" >Klanten</a></li>
-                        <li id="overOnsButton"><a id="overOnsButton" >Over ons</a></li>
-                        <li id="onsTeamButton"><a id="onsTeamButton" >Ons team</a></li>
-                        <li id="contactButton"><a id="contactButton" >Contact</a></li>
+                        <li id="homeButton"><a id="homeButton">Klanten</a></li>
+                        <li id="overOnsButton"><a id="overOnsButton">Over ons</a></li>
+                        <li id="onsTeamButton"><a id="onsTeamButton">Ons team</a></li>
+                        <li id="contactButton"><a id="contactButton">Contact</a></li>
                         <li><a href="/privacy">Privacy statement</a></li>
                     </ul>
                 </div>
@@ -588,6 +624,104 @@
             $(".arrow").css("opacity", 1 - $(window).scrollTop() / 150);
             $(".caption").css("opacity", 1 - $(window).scrollTop() / 150);
         });
+
+        $('#reload').click(function () {
+            $.ajax({
+                type: 'GET',
+                url: 'reload-captcha',
+                success: function (data) {
+                    $(".captcha span").html(data.captcha);
+                }
+            });
+        });
+
+        if ($("#contactUsForm").length > 0) {
+            $("#contactUsForm").validate({
+                rules: {
+                    name: {
+                        required: true,
+                        maxlength: 100
+                    },
+                    email: {
+                        required: true,
+                        maxlength: 255,
+                        email: true,
+                    },
+                    phoneNumber: {
+                        required: false,
+                        maxlength: 15,
+                        minlength: 8
+                    },
+                    subject: {
+                        required: true,
+                        maxlength: 100
+                    },
+                    message: {
+                        required: true,
+                        maxlength: 255
+                    },
+                    captcha: {
+                        required: true,
+                        maxlength: 5,
+                        minlength: 5
+                    }
+                },
+                messages: {
+                    name: {
+                        required: "Vul hier je naam in.",
+                        maxlength: "Je naam mag maar minder dan 100 karakters bevatten."
+                    },
+                    email: {
+                        required: "Vul hier je email in.",
+                        email: "Vul een valide email in.",
+                        maxlength: "Je email mag maar minder dan 255 characters bevatten.",
+                    },
+                    phoneNumber: {
+                        maxlength: "Je telefoonnummer mag maximaal maar 12 karakters bevatten.",
+                        minlength: "Je telefoonnummer moet minimaal 8 karakters bevatten."
+                    },
+                    subject: {
+                        required: "Vul hier een onderwerp in.",
+                        maxlength: "Je onderwerp mag maar maximaal 100 karakters zijn."
+                    },
+                    message: {
+                        required: "Vul hier je bericht in.",
+                        maxlength: "Je bericht mag maar maximaal 255 karakters bevatten."
+                    },
+                    captcha: {
+                        required: "De Captcha is verplicht in te vullen.",
+                        maxlength: "De Captcha mag maximaal 5 karakters hebben.",
+                        minlength: "De Captcha moet minimaal 5 karakters hebben."
+                    }
+                },
+                submitHandler: function (form) {
+                    $.ajaxSetup({
+                        headers: {
+                            'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                        }
+                    });
+                    $('#submit').html('Versturen...');
+                    $("#submit").attr("disabled", true);
+                    $.ajax({
+                        url: "/contactForm",
+                        type: "POST",
+                        data: $('#contactUsForm').serialize(),
+                        success: function (response) {
+                            $('#submit').html('Verstuur');
+                            document.getElementById("contactUsForm").reset();
+                            $(".SuccesMessage").css('display', 'contents');
+                            $("#contactUsForm").css('display', 'none');
+                        },
+                        error: function (response){
+                            $('#submit').html('Verstuur');
+                            document.getElementById("contactUsForm").reset();
+                            $(".ErrorMessage").css('display', 'contents');
+                            $(".errorMessage").html(response.responseText);
+                        }
+                    });
+                }
+            })
+        }
 
     </script>
 </body>
