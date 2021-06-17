@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactFormController;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\DB;
 
 /*
 |--------------------------------------------------------------------------
@@ -84,7 +85,16 @@ Route::get('video/{filename}', function ($filename){
 });
 
 Route::get('cheese', function(){
-    Mail::raw('MailHog', fn ($message) => $message->to('john@example.com')->from('laravel@example.com'));
+    try {
+        DB::connection()->getPdo();
+        if(DB::connection()->getDatabaseName()){
+            echo "Yes! Successfully connected to the DB: " . DB::connection()->getDatabaseName();
+        }else{
+            die("Could not find the database. Please check your configuration.");
+        }
+    } catch (\Exception $e) {
+        die("Could not open connection to database server.  Please check your configuration.");
+    }
 });
 
 // Route::group(['middleware' => ['auth']], function(){
