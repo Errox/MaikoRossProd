@@ -27,23 +27,6 @@ Route::resource('/contactForm', ContactFormController::class)->only([
 ]);
 Route::get('/reload-captcha', [ContactFormController::class, 'reloadCaptcha']);
 
-Route::get('/key', function(){
-    artisan::call('key:generate');
-});
-
-Route::get('/key2', function(){
-    artisan::call('cache:clear');
-    artisan::call('config:clear');
-});
-
-Route::get('/key3', function(){
-    artisan::call('storage:link');
-});
-
-Route::get('/migrate', function(){
-    artisan::call('migrate');
-});
-
 Route::get('images/{filename}', function ($filename){
     $path = storage_path() . '/app/public/images/' . $filename;
 
@@ -82,19 +65,6 @@ Route::get('video/{filename}', function ($filename){
     $response->header("Content-Type", $path);
 
     return $response;
-});
-
-Route::get('cheese', function(){
-    try {
-        DB::connection()->getPdo();
-        if(DB::connection()->getDatabaseName()){
-            echo "Yes! Successfully connected to the DB: " . DB::connection()->getDatabaseName();
-        }else{
-            die("Could not find the database. Please check your configuration.");
-        }
-    } catch (\Exception $e) {
-        die("Could not open connection to database server.  Please check your configuration.");
-    }
 });
 
 // Route::group(['middleware' => ['auth']], function(){

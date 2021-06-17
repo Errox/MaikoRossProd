@@ -84,7 +84,7 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'info@maikoross.nl'),
+        'address' => env('MAIL_FROM_ADDRESS', 'ryan@maikoross.nl'),
         'name' => env('MAIL_FROM_NAME', 'Nieuw Contact Formulier'),
     ],
 
