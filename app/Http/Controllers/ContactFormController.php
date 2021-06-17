@@ -37,17 +37,17 @@ class ContactFormController extends Controller
      */
     public function store(Request $request)
     {
-        // $validated = $request->validate([
-        //     'name' => 'required|string|max:100',
-        //     'email' => 'required|email:rfc,dns|max:255',
-        //     'phoneNumber' => 'min:8|max:11',
-        //     'subject' => 'string|max:100',
-        //     'message' => 'string|max:255'
-        // ]);
 
-        // dd($validated);
-        
+        $request->validate([
+            'name' => 'required|string|max:100',
+            'email' => 'required|email:rfc,dns|max:255',
+            'phoneNumber' => 'min:8|max:12',
+            'subject' => 'string|max:100',
+            'message' => 'string|max:255',
+            'captcha' => 'required|captcha'
+        ]);
 
+     
         $c = new ContactForm;
         $c->name = $request->name;
         $c->email = $request->email;
@@ -56,12 +56,8 @@ class ContactFormController extends Controller
         $c->message = $request->message;
         $c->save();
         
-        Mail::to('ryangroenewold115@gmail.com')
+        Mail::to("info@maikoross.nl")
                 ->send(new ContactFormMail ($c));
-
-        
-        dd('send');
-
     }
 
     /**
@@ -75,6 +71,10 @@ class ContactFormController extends Controller
         //
     }
 
+    public function reloadCaptcha()
+    {
+        return response()->json(['captcha'=> captcha_img()]);
+    }
     /**
      * Show the form for editing the specified resource.
      *

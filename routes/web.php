@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactFormController;
+use Illuminate\Support\Facades\Mail;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,7 @@ Route::get('/', function () {
 Route::resource('/contactForm', ContactFormController::class)->only([
     'store'
 ]);
+Route::get('/reload-captcha', [ContactFormController::class, 'reloadCaptcha']);
 
 Route::get('/key', function(){
     artisan::call('key:generate');
@@ -81,6 +83,9 @@ Route::get('video/{filename}', function ($filename){
     return $response;
 });
 
+Route::get('cheese', function(){
+    Mail::raw('MailHog', fn ($message) => $message->to('john@example.com')->from('laravel@example.com'));
+});
 
 // Route::group(['middleware' => ['auth']], function(){
 //     Route::get('/dashboard', 'App\Http\Controllers\DashboardController@index')->name('dashboard');

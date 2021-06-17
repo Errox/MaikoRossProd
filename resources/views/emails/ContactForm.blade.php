@@ -1,4 +1,4 @@
-{{ dd($__data) }}
+
 <table class="body-wrap" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; width: 100%; background-color: #f6f6f6; margin: 0;" bgcolor="#f6f6f6">
     <tbody>
         <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
@@ -12,7 +12,7 @@
                             <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                 <td class="" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 16px; vertical-align: top; color: #fff; font-weight: 500; text-align: center; border-radius: 3px 3px 0 0; background-color: #38414a; margin: 0; padding: 20px;"
                                     align="center" bgcolor="#71b6f9" valign="top">
-                                    <a href="#" style="font-size:32px;color:#fff;"> ContactForm Notification</a> <br>
+                                    <h3> ContactForm Notification <h3>
                                     <span style="margin-top: 10px;display: block;">{{$contact->name}} - {{$contact->email}}</span>
                                 </td>
                             </tr>
@@ -32,9 +32,8 @@
                                             </tr>
                                             <tr style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; margin: 0;">
                                                 <td class="content-block" style="font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif; box-sizing: border-box; font-size: 14px; vertical-align: top; margin: 0; padding: 0 0 20px;" valign="top">
-                                                    phoneNumber : 
                                                     @if ($contact->phoneNumber)
-                                                        {{$contact->phoneNumber}}
+                                                        Telefoon nummer : {{$contact->phoneNumber}}
                                                     @else
                                                         Geen telefoon nummer ingevoerd
                                                     @endif 
