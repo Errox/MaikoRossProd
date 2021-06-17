@@ -56,7 +56,7 @@ class ContactFormController extends Controller
         $c->message = $request->message;
         $c->save();
         
-        Mail::to("info@maikoross.nl")
+        Mail::to("ryan@maikoross.nl")
                 ->send(new ContactFormMail ($c));
     }
 
