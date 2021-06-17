@@ -390,68 +390,114 @@
 
             <!-- Section Onsteam -->
             <div id="onsTeam" class="container onsTeams">
-                <h1 class="text-center align-middle">Ons Team</h1>
-                <br>
-                <!-- Maiko section-->
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="https://via.placeholder.com/350x350" class="img-responsive img-fluid rounded" alt="">
+                <div class="row mb-2">
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <img class="card-img-right flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 200px; height: 250px;" src="https://via.placeholder.com/200x250"
+                                data-holder-rendered="true">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <h3 class="mb-0">
+                                    Persoon 1
+                                </h3>
+                                <div class="mb-1 text-muted">Editor</div>
+                                <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
+                                    upcoming YouTubers.</p>
+                                <ul class="list-unstyled team-social social-icon social mb-0">
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-facebook-square Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-instagram Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-twitter Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="far fa-envelope Team-Social-diff"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-md-8 TeamIndividualText">
-                        <h2 class="text-center align-middle"> Maiko Roskam </h2>
-                        <p class="text-center align-middle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Cras odio purus, pharetra sed efficitur ut, commodo ac tortor. Etiam nec imperdiet ligula.
-                            Duis in quam leo. Integer tempus pulvinar purus eu dapibus. Pellentesque pretium, mauris a
-                            facilisis tristique, enim ipsum condimentum magna, id mattis mi massa id ex. Nunc tristique
-                            sed lacus nec pellentesque. Donec ultrices quis tortor id lobortis. Interdum et malesuada
-                            fames ac ante ipsum primis in faucibus. </p>
-                        <p class="phoneNumberTeam text-center align-middle">
-                            Email: maiko@ross.nl<br>
-                            Phone: 0637777777
-                        </p>
-                    </div>
-                </div>
-                <br>
-                <!-- Rolin section-->
-                <div class="row">
-                    <div class="col-md-8 TeamIndividualText">
-                        <h2 class="text-center align-middle"> Rolin Noteboom </h2>
-                        <p class="text-center align-middle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Cras odio purus, pharetra sed efficitur ut, commodo ac tortor. Etiam nec imperdiet ligula.
-                            Duis in quam leo. Integer tempus pulvinar purus eu dapibus. Pellentesque pretium, mauris a
-                            facilisis tristique, enim ipsum condimentum magna, id mattis mi massa id ex. Nunc tristique
-                            sed lacus nec pellentesque. Donec ultrices quis tortor id lobortis. Interdum et malesuada
-                            fames ac ante ipsum primis in faucibus. </p>
-                        <p class="phoneNumberTeam text-center align-middle">
-                            Email: maiko@ross.nl<br>
-                            Phone: 0637777777
-                        </p>
-                    </div>
-                    <div class="col-md-4">
-                        <img src="https://via.placeholder.com/350x350" class="img-responsive img-fluid rounded" alt="">
-                    </div>
-                </div>
-                <br>
-                <!-- Tebbe section-->
-                <div class="row">
-                    <div class="col-md-4">
-                        <img src="https://via.placeholder.com/350x350" class="img-responsive img-fluid rounded" alt="">
-                    </div>
-                    <div class="col-md-8 TeamIndividualText">
-                        <h2 class="text-center align-middle"> Tebbe Jan van Loon </h2>
-                        <p class="text-center align-middle"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Cras odio purus, pharetra sed efficitur ut, commodo ac tortor. Etiam nec imperdiet ligula.
-                            Duis in quam leo. Integer tempus pulvinar purus eu dapibus. Pellentesque pretium, mauris a
-                            facilisis tristique, enim ipsum condimentum magna, id mattis mi massa id ex. Nunc tristique
-                            sed lacus nec pellentesque. Donec ultrices quis tortor id lobortis. Interdum et malesuada
-                            fames ac ante ipsum primis in faucibus. </p>
-                        <p class="phoneNumberTeam text-center align-middle">
-                            Email: maiko@ross.nl<br>
-                            Phone: 0637777777
-                        </p>
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <img class="card-img-right flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 200px; height: 250px;" src="https://via.placeholder.com/200x250"
+                                data-holder-rendered="true">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <h3 class="mb-0">
+                                    Persoon 2
+                                </h3>
+                                <div class="mb-1 text-muted">Editor</div>
+                                <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
+                                    upcoming YouTubers.</p>
+                                <ul class="list-unstyled team-social social-icon social mb-0">
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-facebook-square Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-instagram Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-twitter Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="far fa-envelope Team-Social-diff"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <br>
+                <div class="row mb-2">
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <img class="card-img-right flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 200px; height: 250px;" src="https://via.placeholder.com/200x250"
+                                data-holder-rendered="true">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <h3 class="mb-0">
+                                    Persoon 3
+                                </h3>
+                                <div class="mb-1 text-muted">Editor</div>
+                                <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
+                                    upcoming YouTubers.</p>
+                                <ul class="list-unstyled team-social social-icon social mb-0">
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-facebook-square Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-instagram Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-twitter Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="far fa-envelope Team-Social-diff"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
+                            <img class="card-img-right flex-auto d-none d-md-block"
+                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
+                                style="width: 200px; height: 250px;" src="https://via.placeholder.com/200x250"
+                                data-holder-rendered="true">
+                            <div class="card-body d-flex flex-column align-items-start">
+                                <h3 class="mb-0">
+                                    Persoon 4
+                                </h3>
+                                <div class="mb-1 text-muted">Editor</div>
+                                <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
+                                    upcoming YouTubers.</p>
+                                <ul class="list-unstyled team-social social-icon social mb-0">
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-facebook-square Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-instagram Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-twitter Team-Social-diff"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="far fa-envelope Team-Social-diff"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
 
             <hr>
@@ -481,7 +527,7 @@
                             var marker = L.marker([51.81467816805412, 4.666442580866372]).addTo(mymap);
                             marker.bindPopup(
                                 "<h5> MaikoRoss Productions </h5> <p><a href='https://www.google.com/maps/place/Voorstraat+315,+3311+EP+Dordrecht/@51.8146843,4.6642383,17z/data=!3m1!4b1!4m5!3m4!1s0x47c42ecd3d49f75d:0x26175ac26f763d7b!8m2!3d51.814681!4d4.666427'>Voorstraat 315 <br> 3311 EP <br> Dordrecht </a></p> <p> +31 (0) 6 54 85 12 54 </p> <p> Info@maikoross.nl </p> "
-                                ).openPopup();
+                            ).openPopup();
 
                         </script>
                     </div>
@@ -493,15 +539,16 @@
                         <div style="display:none" class="SuccesMessage">
                             <div class="alert alert-success" role="alert">
                                 <h4 class="alert-heading">Succes!</h4>
-                                <p>Je bericht is succesvol ontvangen! We zullen zo spoedig mogelijk contact met je opnemen!</p>
-                              </div>
+                                <p>Je bericht is succesvol ontvangen! We zullen zo spoedig mogelijk contact met je
+                                    opnemen!</p>
+                            </div>
                         </div>
                         <div style="display:none" class="ErrorMessage">
                             <div class="alert alert-danger" role="alert">
                                 <h4 class="alert-heading">Oops</h4>
                                 <p>Er is iets fout gegaan! Probeer opnieuw. </p>
                                 <p class="errorMessage"> </p>
-                              </div>
+                            </div>
                         </div>
                         <form name="contactUsForm" id="contactUsForm" method="POST" action="javascript:void">
                             @csrf
@@ -534,11 +581,13 @@
                                 </div>
                             </div>
                             <div class="form-group mb-4">
-                                <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha" name="captcha">
+                                <input id="captcha" type="text" class="form-control" placeholder="Enter Captcha"
+                                    name="captcha">
                             </div>
                             <div class="section__box">
                                 <a class="r-link ai-element ai-element_type1 ai-element1 navItems">
-                                    <span class="ai-element__label "><button type="submit" id="submit" > Verstuur </button> </span>
+                                    <span class="ai-element__label "><button type="submit" id="submit"> Verstuur
+                                        </button> </span>
                                 </a>
                             </div>
                         </form>
@@ -712,7 +761,7 @@
                             $(".SuccesMessage").css('display', 'contents');
                             $("#contactUsForm").css('display', 'none');
                         },
-                        error: function (response){
+                        error: function (response) {
                             $('#submit').html('Verstuur');
                             document.getElementById("contactUsForm").reset();
                             $(".ErrorMessage").css('display', 'contents');
