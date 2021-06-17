@@ -114,7 +114,7 @@
                         <div class="section__box">
                             <a id="homeButton" id="test"
                                 class="r-link ai-element ai-element_type1 ai-element1 navItems">
-                                <span class="ai-element__label ">Home</span>
+                                <span class="ai-element__label" style="padding-left:20%">Home</span>
                             </a>
                         </div>
                     </li>
@@ -128,7 +128,7 @@
                     <li class="nav-item">
                         <div class="section__box">
                             <a id="contactButton" class="r-link ai-element ai-element_type1 ai-element1 navItems">
-                                <span class="ai-element__label ">Contact</span>
+                                <span class="ai-element__label" style="padding-left:11%">Contact</span>
                             </a>
                         </div>
                     </li>
@@ -390,6 +390,8 @@
 
             <!-- Section Onsteam -->
             <div id="onsTeam" class="container onsTeams">
+                <h1 class="text-center align-middle">Ons team </h1>
+                <br>
                 <div class="row mb-2">
                     <div class="col-md-6">
                         <div class="card flex-md-row mb-4 box-shadow h-md-250">
@@ -586,7 +588,7 @@
                             </div>
                             <div class="section__box">
                                 <a class="r-link ai-element ai-element_type1 ai-element1 navItems">
-                                    <span class="ai-element__label "><button type="submit" id="submit"> Verstuur
+                                    <span style="padding-left: 9%;" class="ai-element__label "><button type="submit" id="submit"> Verstuur
                                         </button> </span>
                                 </a>
                             </div>
