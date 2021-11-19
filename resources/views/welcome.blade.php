@@ -209,45 +209,6 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-                            <div class="mt-4 pt-2">
-                                <div class="team card position-relative d-block text-center">
-                                    <div class="image position-relative d-block overflow-hidden">
-                                        <img src="{{URL('/images/HARM-logo.png')}}" class="img-fluid rounded" alt="">
-                                        <div class="overlay rounded bg-dark"></div>
-                                    </div>
-                                    <div
-                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">HARM</h4>
-                                    </div>
-                                    <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="https://www.youtube.com/c/harmnl" target="_blank" class="rounded"><i
-                                                    class="fab fa-youtube"></i></a></li>
-                                    </ul>
-                                    <!--end icon-->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-                            <div class="mt-4 pt-2">
-                                <div class="team card position-relative d-block text-center">
-                                    <div class="image position-relative d-block overflow-hidden">
-                                        <img src="{{URL('/images/HARM2-logo.png')}}" class="img-fluid rounded" alt="">
-                                        <div class="overlay rounded bg-dark"></div>
-                                    </div>
-                                    <div
-                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">HARM2</h4>
-                                    </div>
-                                    <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="https://www.youtube.com/c/HARM2" target="_blank" class="rounded"><i
-                                                    class="fab fa-youtube"></i></a></li>
-                                    </ul>
-                                    <!--end icon-->
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
 
                         <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                             <div class="mt-4 pt-2">
