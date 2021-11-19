@@ -452,9 +452,10 @@
             <div class="row">
                 <!--First column-->
                 <div class="col-md-3 mx-auto shfooter">
-                    <h5 class="my-2 font-weight-bold "></h5>
+                    <h5 class="my-2 font-weight-bold ">MaikoRoss Productions</h5>
 
                     <ul class="collapse" id="Product">
+                        <li><a href="/privacy">Privacy statement</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 mx-auto shfooter">
