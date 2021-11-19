@@ -134,8 +134,8 @@
                     </li>
                 </ul>
             </div>
-            <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"><a
-                    href="{{URL('/login')}}"> Coming Soon</a></span>
+            {{-- <span class="navbar-text small text-truncate mt-1 w-50 text-right order-1 order-md-last"><a
+                    href="{{URL('/login')}}"> Coming Soon</a></span> --}}
         </nav>
         <!-- End of navbar -->
 
@@ -172,89 +172,17 @@
 
                 <div class="container mt-100 mt-60">
                     <div class="row">
+                        
                         <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
+                                        <img src="{{URL('/images/Qucee-Gaming.png')}}" class="img-fluid rounded" alt="">
                                         <div class="overlay rounded bg-dark"></div>
                                     </div>
                                     <div
                                         class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">Joey van Bonkelen</h4>
-                                        <small class="text-muted">Streamer</small>
-                                    </div>
-                                    <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                    class="fab fa-facebook-square"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                    class="fab fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                    class="fab fa-twitter"></i></a></li>
-                                    </ul>
-                                    <!--end icon-->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-                            <div class="mt-4 pt-2">
-                                <div class="team card position-relative d-block text-center">
-                                    <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
-                                        <div class="overlay rounded bg-dark"></div>
-                                    </div>
-                                    <div
-                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">Joey van Bonkelen</h4>
-                                        <small class="text-muted">Streamer</small>
-                                    </div>
-                                    <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                    class="fab fa-facebook-square"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                    class="fab fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                    class="fab fa-twitter"></i></a></li>
-                                    </ul>
-                                    <!--end icon-->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-                            <div class="mt-4 pt-2">
-                                <div class="team card position-relative d-block text-center">
-                                    <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
-                                        <div class="overlay rounded bg-dark"></div>
-                                    </div>
-                                    <div
-                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">Joey van Bonkelen</h4>
-                                        <small class="text-muted">Streamer</small>
-                                    </div>
-                                    <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                    class="fab fa-facebook-square"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                    class="fab fa-instagram"></i></a></li>
-                                        <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                    class="fab fa-twitter"></i></a></li>
-                                    </ul>
-                                    <!--end icon-->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
-                            <div class="mt-4 pt-2">
-                                <div class="team card position-relative d-block text-center">
-                                    <div class="image position-relative d-block overflow-hidden">
-                                        <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
-                                        <div class="overlay rounded bg-dark"></div>
-                                    </div>
-                                    <div
-                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">Joey van Bonkelen</h4>
-                                        <small class="text-muted">Streamer</small>
+                                        <h4 class="title mb-0">Qucee</h4>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
                                         <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
@@ -279,8 +207,7 @@
                                     </div>
                                     <div
                                         class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">Martin Sobhe</h4>
-                                        <small class="text-muted">Youtuber</small>
+                                        <h4 class="title mb-0">Qucee Gaming</h4>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
                                         <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
@@ -294,7 +221,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!--end col-->
 
                         <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                             <div class="mt-4 pt-2">
@@ -305,8 +231,7 @@
                                     </div>
                                     <div
                                         class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">Bobby DE</h4>
-                                        <small class="text-muted">Developer</small>
+                                        <h4 class="title mb-0">HARM</h4>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
                                         <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
@@ -320,7 +245,6 @@
                                 </div>
                             </div>
                         </div>
-                        <!--end col-->
 
                         <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
                             <div class="mt-4 pt-2">
@@ -331,7 +255,7 @@
                                     </div>
                                     <div
                                         class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">Cristino Murphy</h4>
+                                        <h4 class="title mb-0">HARM2</h4>
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
                                         <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
@@ -347,6 +271,32 @@
                         </div>
                         <!--end col-->
                     </div>
+
+                    <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="mt-4 pt-2">
+                            <div class="team card position-relative d-block text-center">
+                                <div class="image position-relative d-block overflow-hidden">
+                                    <img src="https://via.placeholder.com/245" class="img-fluid rounded" alt="">
+                                    <div class="overlay rounded bg-dark"></div>
+                                </div>
+                                <div
+                                    class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                    <h4 class="title mb-0">Team5pm</h4>
+                                </div>
+                                <ul class="list-unstyled team-social social-icon social mb-0">
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-facebook-square"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                                class="fab fa-twitter"></i></a></li>
+                                </ul>
+                                <!--end icon-->
+                            </div>
+                        </div>
+                    </div>
+                    <!--end col-->
+                </div>
                     <!--end row-->
                 </div>
             </div>
