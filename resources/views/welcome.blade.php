@@ -170,21 +170,16 @@
                 <h1 class="text-center align-middle">Over ons</h1>
                 <br>
                 <p class="text-center">
-                    MaikoRoss Productions is het bedrijf voor alle grote en upcoming YouTubers. Wij ontzorgen de
-                    YouTuber van de stress dat komt kijken bij het editten van de video's. MaikoRoss Productions
-                    produceert vanuit onbewerkte videobeelden de complete content. Dat wil zeggen een volledig geëditte
-                    video inclusief thumbnail.<br><br>
+                    MaikoRoss Productions is een Nederlands content productiebedrijf, gespecialiseerd in content voor
+                    YouTube. Wij produceren vanuit onbewerkte videobeelden de complete content voor verschillende
+                    opdrachtgevers, zoals Youtubers, Influencers en Marketingbureaus.<br><br>
 
-                    Veel Youtubers editten zelf, hebben een freelance editor of een stagiair waarmee zij samenwerken.
-                    Youtubers lopen hierbij tegen meerdere problemen aan. Zelf editten kost veel tijd en geeft je minder
-                    tijd om creatief bezig te zijn met het bedenken van nieuwe content. Een freelance editor heeft niet
-                    24/7 de tijd, want die heeft nog ander werk ernaast. Een stagiair kost veel tijd om te begeleiden en
-                    op te leiden. Als de stagiair er eenmaal klaar voor is, dan is hun stageperiode voorbij en ben je
-                    hem kwijt.<br><br>
+                    YouTube en meerdere online streaming videoplatformen worden steeds populairder. Online streaming
+                    neemt het huidige ‘tv kijken’ over. Dit vraagt om meer professionaliteit in de content op deze
+                    platformen. MaikoRoss Productions verzekert de juiste kwaliteit die je in deze tijd nodig hebt om
+                    jouw content te onderscheiden van je concurrent.<br><br>
 
-                    Ben jij een Youtuber die geen tijd heeft om zich zorgen te maken over de edits? Heb jij behoefte aan
-                    24/7 contact en zekerheid dat jouw content van hoge kwaliteit is. <br>Neem dan nu contact met ons
-                    op.
+                    Ben jij benieuwd wat wij jou kunnen bieden? Neem contact met ons op!<br>
                     <br>
                     <br>
                     <div class="text-center">
@@ -468,12 +463,14 @@
                     <hr>
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/company/maikoross-productions/" target="_blank" class="sbtn btn-large mx-1" title="Linkedin">
+                            <a href="https://www.linkedin.com/company/maikoross-productions/" target="_blank"
+                                class="sbtn btn-large mx-1" title="Linkedin">
                                 <i class="fab fa-linkedin fa-2x"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="https://www.instagram.com/maikoross/" target="_blank" class="sbtn btn-large mx-1" title="Instagram">
+                            <a href="https://www.instagram.com/maikoross/" target="_blank" class="sbtn btn-large mx-1"
+                                title="Instagram">
                                 <i class="fab fa-instagram-square fa-2x"></i>
                             </a>
                         </li>
