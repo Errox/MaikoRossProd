@@ -285,7 +285,7 @@
                         <div class="card flex-md-row mb-4 box-shadow h-md-250">
                             <img class="card-img-right flex-auto d-none d-md-block"
                                 data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
-                                style="width: 200px; height: 250px;" src="{{URL('/images/Maiko.png')}}"
+                                style="width: 200px; height: 250px;" src="{{URL('/images/Maiko.jpeg')}}"
                                 data-holder-rendered="true">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h3 class="mb-0">
@@ -306,7 +306,7 @@
                         <div class="card flex-md-row mb-4 box-shadow h-md-250">
                             <img class="card-img-right flex-auto d-none d-md-block"
                                 data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
-                                style="width: 200px; height: 250px;" src="{{URL('/images/Rolin.png')}}"
+                                style="width: 200px; height: 250px;" src="{{URL('/images/Rolin.jpg')}}"
                                 data-holder-rendered="true">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h3 class="mb-0">
@@ -315,7 +315,7 @@
                                 <div class="mb-1 text-muted">Eigenaar | Manger</div>
                                 <p class="card-text mb-auto"></p>
                                 <ul class="list-unstyled team-social social-icon social mb-0">
-                                    <li class="list-inline-item"><a href="a href="mailto:Maiko@maikoross.nl" " class="rounded"><i
+                                    <li class="list-inline-item"><a href="mailto:Maiko@maikoross.nl" class="rounded"><i
                                                 class="far fa-envelope Team-Social-diff"></i></a></li>
                                 </ul>
                             </div>
@@ -327,7 +327,7 @@
                         <div class="card flex-md-row mb-4 box-shadow h-md-250">
                             <img class="card-img-right flex-auto d-none d-md-block"
                                 data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
-                                style="width: 200px; height: 250px;" src="https://via.placeholder.com/200x250"
+                                style="width: 200px; height: 250px;" src="{{URL('/images/no-photo.jpg')}}"
                                 data-holder-rendered="true">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h3 class="mb-0">
