@@ -171,7 +171,7 @@
 
                 <div class="container mt-100 mt-60">
                     <div class="row">
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
@@ -190,7 +190,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
@@ -210,7 +210,7 @@
                             </div>
                         </div>
 
-                        <div class="col-lg-3 col-md-6 col-12 mt-4 pt-2">
+                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
                             <div class="mt-4 pt-2">
                                 <div class="team card position-relative d-block text-center">
                                     <div class="image position-relative d-block overflow-hidden">
