@@ -292,16 +292,11 @@
                                     Maiko Roskam
                                 </h3>
                                 <div class="mb-1 text-muted">Eigenaar | Editor</div>
-                                <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
-                                    upcoming YouTubers.</p>
+                                <p class="card-text mb-auto"></p>
                                 <ul class="list-unstyled team-social social-icon social mb-0">
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-facebook-square Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/maikoross/" target="_blank" class="rounded"><i
                                                 class="fab fa-instagram Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-twitter Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                    <li class="list-inline-item"><a href="mailto:Maiko@maikoross.nl" class="rounded"><i
                                                 class="far fa-envelope Team-Social-diff"></i></a></li>
                                 </ul>
                             </div>
@@ -317,17 +312,10 @@
                                 <h3 class="mb-0">
                                     Rolin Notenboom
                                 </h3>
-                                <div class="mb-1 text-muted">Eigenaar | </div>
-                                <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
-                                    upcoming YouTubers.</p>
+                                <div class="mb-1 text-muted">Eigenaar | Manger</div>
+                                <p class="card-text mb-auto"></p>
                                 <ul class="list-unstyled team-social social-icon social mb-0">
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-facebook-square Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-instagram Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-twitter Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
+                                    <li class="list-inline-item"><a href="a href="mailto:Maiko@maikoross.nl" " class="rounded"><i
                                                 class="far fa-envelope Team-Social-diff"></i></a></li>
                                 </ul>
                             </div>
@@ -346,17 +334,8 @@
                                     Noah van der Wal
                                 </h3>
                                 <div class="mb-1 text-muted">Stagair | Editor</div>
-                                <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
-                                    upcoming YouTubers.</p>
+                                <p class="card-text mb-auto"></p>
                                 <ul class="list-unstyled team-social social-icon social mb-0">
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-facebook-square Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-instagram Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-twitter Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="far fa-envelope Team-Social-diff"></i></a></li>
                                 </ul>
                             </div>
                         </div>
