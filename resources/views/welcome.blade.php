@@ -468,28 +468,18 @@
                     <hr>
                     <ul class="list-unstyled list-inline">
                         <li class="list-inline-item">
-                            <a href="#!" target="_blank" class="sbtn btn-large mx-1" title="Facebook">
-                                <i class="fab fa-facebook-square fa-2x"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#!" target="_blank" class="sbtn btn-large mx-1" title="Linkedin">
+                            <a href="https://www.linkedin.com/company/maikoross-productions/" target="_blank" class="sbtn btn-large mx-1" title="Linkedin">
                                 <i class="fab fa-linkedin fa-2x"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#!" target="_blank" class="sbtn btn-large mx-1" title="Twitter">
-                                <i class="fab fa-twitter-square fa-2x"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#!" target="_blank" class="sbtn btn-large mx-1" title="Youtube">
-                                <i class="fab fa-youtube-square fa-2x"></i>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="#!" target="_blank" class="sbtn btn-large mx-1" title="Instagram">
+                            <a href="https://www.instagram.com/maikoross/" target="_blank" class="sbtn btn-large mx-1" title="Instagram">
                                 <i class="fab fa-instagram-square fa-2x"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="mailto:info@maikoross.nl" target="_blank" class="sbtn btn-large mx-1" title="Instagram">
+                                <i class="far fa-envelope fa-2x"></i>
                             </a>
                         </li>
                     </ul>
