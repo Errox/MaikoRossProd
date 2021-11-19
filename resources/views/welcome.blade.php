@@ -285,13 +285,13 @@
                         <div class="card flex-md-row mb-4 box-shadow h-md-250">
                             <img class="card-img-right flex-auto d-none d-md-block"
                                 data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
-                                style="width: 200px; height: 250px;" src="https://via.placeholder.com/200x250"
+                                style="width: 200px; height: 250px;" src="{{URL('/images/Maiko.png')}}"
                                 data-holder-rendered="true">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h3 class="mb-0">
-                                    Persoon 1
+                                    Maiko Roskam
                                 </h3>
-                                <div class="mb-1 text-muted">Editor</div>
+                                <div class="mb-1 text-muted">Eigenaar | Editor</div>
                                 <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
                                     upcoming YouTubers.</p>
                                 <ul class="list-unstyled team-social social-icon social mb-0">
@@ -311,13 +311,13 @@
                         <div class="card flex-md-row mb-4 box-shadow h-md-250">
                             <img class="card-img-right flex-auto d-none d-md-block"
                                 data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
-                                style="width: 200px; height: 250px;" src="https://via.placeholder.com/200x250"
+                                style="width: 200px; height: 250px;" src="{{URL('/images/Rolin.png')}}"
                                 data-holder-rendered="true">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h3 class="mb-0">
-                                    Persoon 2
+                                    Rolin Notenboom
                                 </h3>
-                                <div class="mb-1 text-muted">Editor</div>
+                                <div class="mb-1 text-muted">Eigenaar | </div>
                                 <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
                                     upcoming YouTubers.</p>
                                 <ul class="list-unstyled team-social social-icon social mb-0">
@@ -343,35 +343,9 @@
                                 data-holder-rendered="true">
                             <div class="card-body d-flex flex-column align-items-start">
                                 <h3 class="mb-0">
-                                    Persoon 3
+                                    Noah van der Wal
                                 </h3>
-                                <div class="mb-1 text-muted">Editor</div>
-                                <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
-                                    upcoming YouTubers.</p>
-                                <ul class="list-unstyled team-social social-icon social mb-0">
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-facebook-square Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-instagram Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="fab fa-twitter Team-Social-diff"></i></a></li>
-                                    <li class="list-inline-item"><a href="javascript:void(0)" class="rounded"><i
-                                                class="far fa-envelope Team-Social-diff"></i></a></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card flex-md-row mb-4 box-shadow h-md-250">
-                            <img class="card-img-right flex-auto d-none d-md-block"
-                                data-src="holder.js/200x250?theme=thumb" alt="Thumbnail [200x250]"
-                                style="width: 200px; height: 250px;" src="https://via.placeholder.com/200x250"
-                                data-holder-rendered="true">
-                            <div class="card-body d-flex flex-column align-items-start">
-                                <h3 class="mb-0">
-                                    Persoon 4
-                                </h3>
-                                <div class="mb-1 text-muted">Editor</div>
+                                <div class="mb-1 text-muted">Stagair | Editor</div>
                                 <p class="card-text mb-auto">MaikoRoss Productions is het bedrijf voor alle grote en
                                     upcoming YouTubers.</p>
                                 <ul class="list-unstyled team-social social-icon social mb-0">
