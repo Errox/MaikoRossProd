@@ -477,11 +477,6 @@
                                 <i class="fab fa-instagram-square fa-2x"></i>
                             </a>
                         </li>
-                        <li class="list-inline-item">
-                            <a href="mailto:info@maikoross.nl" target="_blank" class="sbtn btn-large mx-1" title="Instagram">
-                                <i class="far fa-envelope fa-2x"></i>
-                            </a>
-                        </li>
                     </ul>
                 </div>
                 <!--/.Fourth column-->
