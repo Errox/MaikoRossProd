@@ -165,82 +165,6 @@
         <!-- Start rest of the page -->
         <div class="bg-white contentBody container">
 
-            <!-- Section Klanten -->
-            <div id="klanten" class="klanten">
-                <h1 class="text-center">Klanten</h1>
-
-                <div class="container mt-100 mt-60">
-                    <div class="row">
-                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                            <div class="mt-4 pt-2">
-                                <div class="team card position-relative d-block text-center">
-                                    <div class="image position-relative d-block overflow-hidden">
-                                        <img src="{{URL('/images/Qucee-logo.png')}}" class="img-fluid rounded" alt="">
-                                        <div class="overlay rounded bg-dark"></div>
-                                    </div>
-                                    <div
-                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">Qucee</h4>
-                                    </div>
-                                    <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="https://www.youtube.com/user/Qucee3205" target="_blank" class="rounded"><i
-                                                    class="fab fa-youtube"></i></a></li>
-                                    </ul>
-                                    <!--end icon-->
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                            <div class="mt-4 pt-2">
-                                <div class="team card position-relative d-block text-center">
-                                    <div class="image position-relative d-block overflow-hidden">
-                                        <img src="{{URL('/images/Qucee-Gaming.png')}}" class="img-fluid rounded" alt="">
-                                        <div class="overlay rounded bg-dark"></div>
-                                    </div>
-                                    <div
-                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">Qucee Gaming</h4>
-                                    </div>
-                                    <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="https://www.youtube.com/channel/UCtkPi5srEPtGhwukJBmTaBA" target="_blank" class="rounded"><i
-                                                    class="fab fa-youtube"></i></a></li>
-                                    </ul>
-                                    <!--end icon-->
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
-                            <div class="mt-4 pt-2">
-                                <div class="team card position-relative d-block text-center">
-                                    <div class="image position-relative d-block overflow-hidden">
-                                        <img src="{{URL('/images/Logo-team5pm.png')}}" class="img-fluid rounded" alt="">
-                                        <div class="overlay rounded bg-dark"></div>
-                                    </div>
-                                    <div
-                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
-                                        <h4 class="title mb-0">Team5pm</h4>
-                                    </div>
-                                    <ul class="list-unstyled team-social social-icon social mb-0">
-                                        <li class="list-inline-item"><a href="https://team5pm.com/nl/" target="_blank" class="rounded"><i
-                                                    class="fa fa-globe-europe"></i></a></li>
-                                    </ul>
-                                    <!--end icon-->
-                                </div>
-                            </div>
-                        </div>
-                        <!--end col-->
-
-                        
-                        
-                        <!--end col-->
-                    </div>
-                    <!--end row-->
-                </div>
-            </div>
-
-            <hr>
-
             <!-- Section Overons -->
             <div id="overOns" class="container overOns">
                 <h1 class="text-center align-middle">Over ons</h1>
@@ -294,7 +218,8 @@
                                 <div class="mb-1 text-muted">Eigenaar | Editor</div>
                                 <p class="card-text mb-auto"></p>
                                 <ul class="list-unstyled team-social social-icon social mb-0">
-                                    <li class="list-inline-item"><a href="https://www.instagram.com/maikoross/" target="_blank" class="rounded"><i
+                                    <li class="list-inline-item"><a href="https://www.instagram.com/maikoross/"
+                                            target="_blank" class="rounded"><i
                                                 class="fab fa-instagram Team-Social-diff"></i></a></li>
                                     <li class="list-inline-item"><a href="mailto:Maiko@maikoross.nl" class="rounded"><i
                                                 class="far fa-envelope Team-Social-diff"></i></a></li>
@@ -340,6 +265,83 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            <hr>
+
+            <!-- Section Klanten -->
+            <div id="klanten" class="klanten">
+                <h1 class="text-center">Klanten</h1>
+
+                <div class="container mt-100 mt-60">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                            <div class="mt-4 pt-2">
+                                <div class="team card position-relative d-block text-center">
+                                    <div class="image position-relative d-block overflow-hidden">
+                                        <img src="{{URL('/images/Qucee-logo.png')}}" class="img-fluid rounded" alt="">
+                                        <div class="overlay rounded bg-dark"></div>
+                                    </div>
+                                    <div
+                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                        <h4 class="title mb-0">Qucee</h4>
+                                    </div>
+                                    <ul class="list-unstyled team-social social-icon social mb-0">
+                                        <li class="list-inline-item"><a href="https://www.youtube.com/user/Qucee3205"
+                                                target="_blank" class="rounded"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                            <div class="mt-4 pt-2">
+                                <div class="team card position-relative d-block text-center">
+                                    <div class="image position-relative d-block overflow-hidden">
+                                        <img src="{{URL('/images/Qucee-Gaming.png')}}" class="img-fluid rounded" alt="">
+                                        <div class="overlay rounded bg-dark"></div>
+                                    </div>
+                                    <div
+                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                        <h4 class="title mb-0">Qucee Gaming</h4>
+                                    </div>
+                                    <ul class="list-unstyled team-social social-icon social mb-0">
+                                        <li class="list-inline-item"><a
+                                                href="https://www.youtube.com/channel/UCtkPi5srEPtGhwukJBmTaBA"
+                                                target="_blank" class="rounded"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                            <div class="mt-4 pt-2">
+                                <div class="team card position-relative d-block text-center">
+                                    <div class="image position-relative d-block overflow-hidden">
+                                        <img src="{{URL('/images/Logo-team5pm.png')}}" class="img-fluid rounded" alt="">
+                                        <div class="overlay rounded bg-dark"></div>
+                                    </div>
+                                    <div
+                                        class="content py-2 member-position bg-white border-bottom overflow-hidden rounded d-inline-block">
+                                        <h4 class="title mb-0">Team5pm</h4>
+                                    </div>
+                                    <ul class="list-unstyled team-social social-icon social mb-0">
+                                        <li class="list-inline-item"><a href="https://team5pm.com/nl/" target="_blank"
+                                                class="rounded"><i class="fa fa-globe-europe"></i></a></li>
+                                    </ul>
+                                    <!--end icon-->
+                                </div>
+                            </div>
+                        </div>
+                        <!--end col-->
+
+
+
+                        <!--end col-->
+                    </div>
+                    <!--end row-->
                 </div>
             </div>
 
@@ -429,7 +431,8 @@
                             </div>
                             <div class="section__box">
                                 <a class="r-link ai-element ai-element_type1 ai-element1 navItems">
-                                    <span style="padding-left: 9%;" class="ai-element__label "><button type="submit" id="submit"> Verstuur
+                                    <span style="padding-left: 9%;" class="ai-element__label "><button type="submit"
+                                            id="submit"> Verstuur
                                         </button> </span>
                                 </a>
                             </div>
@@ -449,14 +452,9 @@
             <div class="row">
                 <!--First column-->
                 <div class="col-md-3 mx-auto shfooter">
-                    <h5 class="my-2 font-weight-bold ">MaikoRoss Productions</h5>
+                    <h5 class="my-2 font-weight-bold "></h5>
 
                     <ul class="collapse" id="Product">
-                        <li id="homeButton"><a id="homeButton">Klanten</a></li>
-                        <li id="overOnsButton"><a id="overOnsButton">Over ons</a></li>
-                        <li id="onsTeamButton"><a id="onsTeamButton">Ons team</a></li>
-                        <li id="contactButton"><a id="contactButton">Contact</a></li>
-                        <li><a href="/privacy">Privacy statement</a></li>
                     </ul>
                 </div>
                 <div class="col-md-3 mx-auto shfooter">
