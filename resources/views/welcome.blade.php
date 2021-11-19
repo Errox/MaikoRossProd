@@ -223,7 +223,7 @@
                                     </div>
                                     <ul class="list-unstyled team-social social-icon social mb-0">
                                         <li class="list-inline-item"><a href="https://team5pm.com/nl/" target="_blank" class="rounded"><i
-                                                    class="fab fa-globe-europe"></i></a></li>
+                                                    class="fa fa-globe-europe"></i></a></li>
                                     </ul>
                                     <!--end icon-->
                                 </div>
